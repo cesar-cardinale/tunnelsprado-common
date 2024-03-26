@@ -1,5 +1,3 @@
-declare const _default: {
-    store: import("@rematch/core").RematchStore<import("./root").RootModel, Record<string, never>>;
-    models: import("./root").RootModel;
-};
-export default _default;
+import { store } from "./store";
+import { models } from "./root";
+export { store, models };
