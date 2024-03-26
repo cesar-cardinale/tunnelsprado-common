@@ -1,8 +1,5 @@
-import { Models } from '@rematch/core';
-import { posts } from './models/posts';
-import { traffic } from './models/traffic';
-export interface RootModel extends Models<RootModel> {
-    posts: typeof posts;
-    traffic: typeof traffic;
-}
-export declare const models: RootModel;
+declare const _default: {
+    store: import("@rematch/core").RematchStore<import("./root").RootModel, Record<string, never>>;
+    models: import("./root").RootModel;
+};
+export default _default;

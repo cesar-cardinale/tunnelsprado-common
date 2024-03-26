@@ -1,5 +1,5 @@
 import { createModel } from '@rematch/core';
-import { RootModel } from '../index';
+import { RootModel } from '../root';
 import { publicAPI } from '../services/publicAPI';
 import { ITraffic } from '../types/ITraffic';
 import {IStateKeys, IStates} from "../types/IStates";

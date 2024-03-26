@@ -1,9 +1,2 @@
-export const getStates = (state) => state.states;
-export const getTicketsFlux = (state) => state.ticketsFlux;
-export const getReceipts = (state) => state.receipts;
-export const getRefunds = (state) => state.refunds;
-export const getBanks = (state) => state.banks;
-export const getConfig = (state) => state.config;
-export const getTickets = (state) => state.tickets;
 export const getPosts = (state) => state.posts;
 export const getTraffic = (state) => state.traffic;

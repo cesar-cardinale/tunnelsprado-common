@@ -1,4 +1,4 @@
-import { RootModel } from '../index';
+import { RootModel } from '../root';
 import { IPost } from '../types/IPost';
 import { IStateKeys } from "../types/IStates";
 export declare const posts: {

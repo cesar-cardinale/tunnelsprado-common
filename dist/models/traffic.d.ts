@@ -1,4 +1,4 @@
-import { RootModel } from '../index';
+import { RootModel } from '../root';
 import { ITraffic } from '../types/ITraffic';
 import { IStateKeys } from "../types/IStates";
 export declare const traffic: {
