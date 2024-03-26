@@ -1,3 +1,4 @@
 import { store } from "./store";
 import { models } from "./root";
-export { store, models };
+import { getPosts, getTraffic } from "./selectors";
+export { store, models, getPosts, getTraffic };
