@@ -20,6 +20,8 @@ export interface ISection {
   time?: number;
   trafficIdentifier?: string;
   traffic?: string;
+  from: string;
+  to: string;
   isOpen: boolean;
   entries: IRoad[];
   exits?: IRoad[];
