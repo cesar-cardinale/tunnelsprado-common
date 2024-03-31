@@ -21,7 +21,7 @@ export interface ISection {
     traffic?: string;
     from: string;
     to: string;
-    isOpen: boolean;
+    isOpen: boolean | null;
     entries: IRoad[];
     exits?: IRoad[];
     extras?: IRoad[];
@@ -29,5 +29,5 @@ export interface ISection {
 export interface IRoad {
     identifier: string;
     name?: string;
-    isOpen: boolean;
+    isOpen: boolean | null;
 }
