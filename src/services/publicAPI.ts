@@ -1,6 +1,7 @@
-import { RestFulAPI } from './RestFulAPI';
-import { IPost } from '../types/IPost';
-import { ITraffic } from '../types/ITraffic';
+import {RestFulAPI} from "./RestFulAPI";
+import {IPost} from "../types/IPost";
+import {ITraffic} from "../types/ITraffic";
+
 
 class PublicAPI extends RestFulAPI {
   public post = {
